@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(216, 12%, 8%);
+}
+
+.container {
+    width: 25%;
+    margin: 200px auto 0 auto;
+    color: white;
+}
+
+/* CSS for the Rate card */
+
+.card {
+    background: hsl(213, 19%, 18%);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.icon-star {
+    width: 40px;
+    line-height: 40px;
+    background: hsl(213, 18%, 24%);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.rate-question {
+    margin: 30px 0 10px 0;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.rate-para {
+    color: hsl(217, 12%, 63%);
+    width: 90%;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.rate-card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rate-card-hide {
+    display: none;
+}
+
+
+.rating {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.btn {
+    color: hsl(217, 12%, 63%);
+    background: hsl(213, 18%, 24%);
+    border: none;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
+#clicked {
+    color: white;
+    background: hsl(217, 12%, 63%);
+}
+
+.submit-btn {
+    background: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 90%;
+    border-radius: 360px;
+    cursor: pointer;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.submit-btn:hover {
+    color: hsl(25, 97%, 53%);
+
+    background: white;
+}
+
+/* CSS for the Thank You card */
+
+.thanks-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.rating-outcome {
+    font-size: 14px;
+    color: hsl(25, 97%, 53%);
+    background: hsl(213, 18%, 24%);
+    padding: 10px;
+    border-radius: 360px;
+}
+
+.support-msg {
+    color: hsl(217, 12%, 63%);
+    font-size: 14px;
+    width: 94%;
+    text-align: center;
+}
+
+
+
+/* CSS for the Footer */
+.attribution {
+    position: fixed;
+    bottom: 0;
+    color: hsl(25, 97%, 53%);
+}
+
+.attribution a {
+    color: white;
+}
+
+/* Media queries */
+
+@media screen and (max-width:500px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:501px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1180px) and (min-width:801px) {
+    .container {
+        width: 40%;
+    }
+}
